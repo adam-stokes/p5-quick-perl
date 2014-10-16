@@ -18,6 +18,7 @@ use Try::Tiny;
 use Carp    ();
 use feature ();
 use true    ();
+use Data::Dumper::Concise ();
 
 use match::simple ();
 
@@ -66,6 +67,7 @@ sub import {
     Path::Tiny->import::into($target, 'path');
     PerlX::Maybe->import::into($target, qw/maybe provided/);
     Try::Tiny->import::into($target);
+    Data::Dumper::Concise->import::into($target, qw(Dumper));
     Switch::Plain->import;
 
     $class;
