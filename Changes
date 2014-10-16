@@ -3,12 +3,20 @@ Changes from 2013-10-16 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2014-10-16 23:23:26 +0000
+version 0.0.1 at 2014-10-16 23:36:30 +0000
 ------------------------------------------
 
-  Change: 51817f69bfda17d4cf4ae7b7220dec983a1465a1
+  Change: f29c410d4ffc040b0c8da354ce4c268b40822e95
   Author: Adam Stokes <adam.stokes@ubuntu.com>
-  Date : 2014-10-16 19:23:20 +0000
+  Date : 2014-10-16 19:36:12 +0000
+
+    start work on defaults
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: d2d834bf475c32b0225c4921671e1a1b01a18dee
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-10-16 19:23:45 +0000
 
     init
 

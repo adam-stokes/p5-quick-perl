@@ -1,4 +1,23 @@
+requires "Carp" => "0";
+requires "Function::Parameters" => "0";
+requires "Import::Into" => "0";
+requires "Path::Tiny" => "0";
+requires "PerlX::Maybe" => "0";
+requires "Scalar::Util" => "0";
+requires "Switch::Plain" => "0";
+requires "Try::Tiny" => "0";
+requires "autobox" => "0";
+requires "autobox::Core" => "0";
+requires "autodie" => "0";
+requires "bareword::filehandles" => "0";
+requires "boolean" => "0";
+requires "feature" => "0";
+requires "indirect" => "0";
+requires "match::simple" => "0";
+requires "perl" => "v5.14.0";
 requires "strict" => "0";
+requires "true" => "0";
+requires "utf8::all" => "0";
 requires "warnings" => "0";
 
 on 'test' => sub {
@@ -11,7 +30,6 @@ on 'test' => sub {
   requires "Test::Mojo" => "0";
   requires "Test::More" => "0";
   requires "Test::NoTabs" => "0";
-  requires "perl" => "5.006";
 };
 
 on 'test' => sub {

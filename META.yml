@@ -1,5 +1,5 @@
 ---
-abstract: 'Quick::Perl is ...'
+abstract: 'my kinda/sorta defaults'
 author:
   - 'Adam Stokes <adamjs@cpan.org>'
 build_requires:
@@ -12,7 +12,6 @@ build_requires:
   Test::Mojo: '0'
   Test::More: '0'
   Test::NoTabs: '0'
-  perl: '5.006'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
@@ -23,7 +22,29 @@ meta-spec:
   version: '1.4'
 name: Quick-Perl
 requires:
+  Carp: '0'
+  Function::Parameters: '0'
+  Import::Into: '0'
+  Path::Tiny: '0'
+  PerlX::Maybe: '0'
+  Scalar::Util: '0'
+  Switch::Plain: '0'
+  Try::Tiny: '0'
+  autobox: '0'
+  autobox::Core: '0'
+  autodie: '0'
+  bareword::filehandles: '0'
+  boolean: '0'
+  feature: '0'
+  indirect: '0'
+  match::simple: '0'
+  perl: v5.14.0
   strict: '0'
+  'true': '0'
+  utf8::all: '0'
   warnings: '0'
-version: '0.001'
+resources:
+  homepage: https://github.com/battlemidget/p5-quick-perl
+  repository: https://github.com/battlemidget/p5-quick-perl.git
+version: 0.0.1
 x_authority: cpan:ADAMJS

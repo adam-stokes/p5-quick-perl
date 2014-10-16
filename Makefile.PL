@@ -3,14 +3,14 @@
 use strict;
 use warnings;
 
-
+use 5.014000;
 
 use ExtUtils::MakeMaker ;
 
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Quick::Perl is ...",
+  "ABSTRACT" => "my kinda/sorta defaults",
   "AUTHOR" => "Adam Stokes <adamjs\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -20,7 +20,25 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Quick::Perl",
   "PREREQ_PM" => {
+    "Carp" => 0,
+    "Function::Parameters" => 0,
+    "Import::Into" => 0,
+    "Path::Tiny" => 0,
+    "PerlX::Maybe" => 0,
+    "Scalar::Util" => 0,
+    "Switch::Plain" => 0,
+    "Try::Tiny" => 0,
+    "autobox" => 0,
+    "autobox::Core" => 0,
+    "autodie" => 0,
+    "bareword::filehandles" => 0,
+    "boolean" => 0,
+    "feature" => 0,
+    "indirect" => 0,
+    "match::simple" => 0,
     "strict" => 0,
+    "true" => 0,
+    "utf8::all" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
@@ -34,7 +52,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "Test::NoTabs" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.0.1",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,16 +60,34 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Carp" => 0,
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
+  "Function::Parameters" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "Import::Into" => 0,
+  "Path::Tiny" => 0,
+  "PerlX::Maybe" => 0,
+  "Scalar::Util" => 0,
+  "Switch::Plain" => 0,
   "Test::Compile" => 0,
   "Test::Kwalitee" => 0,
   "Test::Mojo" => 0,
   "Test::More" => 0,
   "Test::NoTabs" => 0,
+  "Try::Tiny" => 0,
+  "autobox" => 0,
+  "autobox::Core" => 0,
+  "autodie" => 0,
+  "bareword::filehandles" => 0,
+  "boolean" => 0,
+  "feature" => 0,
+  "indirect" => 0,
+  "match::simple" => 0,
   "strict" => 0,
+  "true" => 0,
+  "utf8::all" => 0,
   "warnings" => 0
 );
 

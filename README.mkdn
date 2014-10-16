@@ -1,10 +1,10 @@
 # NAME
 
-Quick::Perl - Quick::Perl is ...
+Quick::Perl - my kinda/sorta defaults
 
 # VERSION
 
-version 0.001
+version 0.0.1
 
 # AUTHOR
 
