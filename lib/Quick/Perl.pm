@@ -15,18 +15,17 @@ no indirect ':fatal';
 
 use Try::Tiny;
 
-use Carp    ();
-use feature ();
-use true    ();
+use Carp                  ();
+use feature               ();
+use true                  ();
 use Data::Dumper::Concise ();
-
-use match::simple ();
-
-use Function::Parameters ();
-use Path::Tiny           ();
-use PerlX::Maybe         ();
-use Scalar::Util         ();
-use Switch::Plain        ();
+use match::simple         ();
+use Function::Parameters  ();
+use Path::Tiny            ();
+use PerlX::Maybe          ();
+use Scalar::Util          ();
+use Switch::Plain         ();
+use Sys::Info             ();
 
 use Import::Into;
 
