@@ -61,7 +61,12 @@ sub import {
     match::simple->import::into($target);
     true->import;
 
-    Function::Parameters->import::into($target, qw(:strict));
+    Function::Parameters->import::into(
+        $target,
+        {   func   => 'function_strict',
+            method => 'method_strict',
+        }
+    );
 
     Path::Tiny->import::into($target, 'path');
     PerlX::Maybe->import::into($target, qw/maybe provided/);
