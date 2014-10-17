@@ -60,7 +60,7 @@ sub import {
     feature->unimport('switch');
 
     match::simple->import::into($target);
-    true->import::into($target);
+    true->import;
 
     Function::Parameters->import::into(
         $target,

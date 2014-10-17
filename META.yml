@@ -49,5 +49,5 @@ requires:
 resources:
   homepage: https://github.com/battlemidget/p5-quick-perl
   repository: https://github.com/battlemidget/p5-quick-perl.git
-version: 0.0.4
+version: 0.0.5
 x_authority: cpan:ADAMJS
