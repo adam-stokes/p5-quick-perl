@@ -29,6 +29,7 @@ requires:
   Path::Tiny: '0'
   PerlX::Maybe: '0'
   Scalar::Util: '0'
+  Set::Tiny: '0'
   Switch::Plain: '0'
   Sys::Info: '0'
   Try::Tiny: '0'
@@ -48,5 +49,5 @@ requires:
 resources:
   homepage: https://github.com/battlemidget/p5-quick-perl
   repository: https://github.com/battlemidget/p5-quick-perl.git
-version: 0.0.3
+version: 0.0.4
 x_authority: cpan:ADAMJS

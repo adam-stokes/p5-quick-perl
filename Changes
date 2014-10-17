@@ -3,8 +3,22 @@ Changes from 2013-10-17 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.0.3 at 2014-10-17 01:56:18 +0000
+version 0.0.4 at 2014-10-17 03:09:49 +0000
 ------------------------------------------
+
+  Change: 2aa7acfa90b801eb7276154a5ab7663b3066a0d3
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-10-16 23:09:43 +0000
+
+    add set::tiny
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 096f6ccab9ae4d795c6ab21f30d31e4c5b415392
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-10-16 21:56:23 +0000
+
+    v0.0.3 
 
   Change: 44e3c0a00f404a5ab4f1801812522164222375e9
   Author: Adam Stokes <adam.stokes@ubuntu.com>

@@ -26,12 +26,13 @@ use PerlX::Maybe          ();
 use Scalar::Util          ();
 use Switch::Plain         ();
 use Sys::Info             ();
+use Set::Tiny             ();
 
 use Import::Into;
 
 sub import {
-    my $class = shift;
-    my $target   = caller;
+    my $class  = shift;
+    my $target = caller;
 
     # Core
     Carp->import::into($target, qw/carp croak confess/,);
@@ -73,6 +74,7 @@ sub import {
     Try::Tiny->import::into($target);
     Data::Dumper::Concise->import::into($target, qw(Dumper));
     Switch::Plain->import;
+    Set::Tiny->import::into($target);
 
     $class;
 }

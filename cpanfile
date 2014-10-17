@@ -5,6 +5,7 @@ requires "Import::Into" => "0";
 requires "Path::Tiny" => "0";
 requires "PerlX::Maybe" => "0";
 requires "Scalar::Util" => "0";
+requires "Set::Tiny" => "0";
 requires "Switch::Plain" => "0";
 requires "Sys::Info" => "0";
 requires "Try::Tiny" => "0";

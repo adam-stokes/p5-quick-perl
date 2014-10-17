@@ -27,6 +27,7 @@ my %WriteMakefileArgs = (
     "Path::Tiny" => 0,
     "PerlX::Maybe" => 0,
     "Scalar::Util" => 0,
+    "Set::Tiny" => 0,
     "Switch::Plain" => 0,
     "Sys::Info" => 0,
     "Try::Tiny" => 0,
@@ -54,7 +55,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "Test::NoTabs" => 0
   },
-  "VERSION" => "0.0.3",
+  "VERSION" => "0.0.4",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -73,6 +74,7 @@ my %FallbackPrereqs = (
   "Path::Tiny" => 0,
   "PerlX::Maybe" => 0,
   "Scalar::Util" => 0,
+  "Set::Tiny" => 0,
   "Switch::Plain" => 0,
   "Sys::Info" => 0,
   "Test::Compile" => 0,
