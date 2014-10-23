@@ -16,6 +16,7 @@ no indirect ':fatal';
 use Try::Tiny;
 
 use Carp                  ();
+use Const::Fast           ();
 use feature               ();
 use true                  ();
 use Data::Dumper::Concise ();
@@ -35,9 +36,9 @@ sub import {
     my $target = caller;
 
     # Core
-    Carp->import::into($target, qw/carp croak confess/,);
-
-    Scalar::Util->import::into($target, qw/blessed reftype weaken/,);
+    Carp->import::into($target, qw/carp croak confess/);
+    Const::Fast->import::into($target, qw/const/);
+    Scalar::Util->import::into($target, qw/blessed reftype weaken/);
 
     # Pragmas
     'strict'->import::into($target);

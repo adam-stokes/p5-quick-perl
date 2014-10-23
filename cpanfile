@@ -1,4 +1,5 @@
 requires "Carp" => "0";
+requires "Const::Fast" => "0";
 requires "Data::Dumper::Concise" => "0";
 requires "Function::Parameters" => "0";
 requires "Import::Into" => "0";

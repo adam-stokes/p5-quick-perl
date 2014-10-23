@@ -15,7 +15,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142690'
+generated_by: 'Dist::Zilla version 5.021, CPAN::Meta::Converter version 2.142690'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,6 +23,7 @@ meta-spec:
 name: Quick-Perl
 requires:
   Carp: '0'
+  Const::Fast: '0'
   Data::Dumper::Concise: '0'
   Function::Parameters: '0'
   Import::Into: '0'
@@ -49,5 +50,5 @@ requires:
 resources:
   homepage: https://github.com/battlemidget/p5-quick-perl
   repository: https://github.com/battlemidget/p5-quick-perl.git
-version: 0.0.5
+version: 0.0.6
 x_authority: cpan:ADAMJS
