@@ -50,9 +50,7 @@ sub import {
     'autobox::Core'->import::into($target);
 
     warnings->unimport('once');
-    if ($] >= 5.018) {
-        warnings->unimport('experimental');
-    }
+    warnings->unimport('experimental');
 
     bareword::filehandles->unimport;
     indirect->unimport(':fatal');
