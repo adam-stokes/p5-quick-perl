@@ -25,6 +25,7 @@ requires:
   Carp: '0'
   Const::Fast: '0'
   Data::Dumper::Concise: '0'
+  Data::UUID: '0'
   Function::Parameters: '0'
   Import::Into: '0'
   Path::Tiny: '0'
@@ -50,5 +51,5 @@ requires:
 resources:
   homepage: https://github.com/battlemidget/p5-quick-perl
   repository: https://github.com/battlemidget/p5-quick-perl.git
-version: 0.0.6
+version: 0.0.7
 x_authority: cpan:ADAMJS

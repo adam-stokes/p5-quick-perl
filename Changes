@@ -1,10 +1,24 @@
 ==================================================
-Changes from 2013-10-23 00:00:00 +0000 to present.
+Changes from 2013-10-24 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.0.6 at 2014-10-23 00:36:41 +0000
+version 0.0.7 at 2014-10-24 01:03:38 +0000
 ------------------------------------------
+
+  Change: 66222b0a9a2dcc244a7fe7c6678993d267607990
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-10-23 18:01:01 +0000
+
+    unimport experimental
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 90adc8c889d2d39b45c8187d38ba7cfd5445eaf3
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-10-22 20:36:46 +0000
+
+    v0.0.6 
 
   Change: 7508197ee09365f7981b5b55f6c9d72bd72ba1cc
   Author: Adam Stokes <adam.stokes@ubuntu.com>

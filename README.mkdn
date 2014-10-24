@@ -4,7 +4,7 @@ Quick::Perl - my kinda/sorta defaults
 
 # VERSION
 
-version 0.0.6
+version 0.0.7
 
 # AUTHOR
 

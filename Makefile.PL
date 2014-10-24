@@ -24,6 +24,7 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Const::Fast" => 0,
     "Data::Dumper::Concise" => 0,
+    "Data::UUID" => 0,
     "Function::Parameters" => 0,
     "Import::Into" => 0,
     "Path::Tiny" => 0,
@@ -57,7 +58,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "Test::NoTabs" => 0
   },
-  "VERSION" => "0.0.6",
+  "VERSION" => "0.0.7",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -68,6 +69,7 @@ my %FallbackPrereqs = (
   "Carp" => 0,
   "Const::Fast" => 0,
   "Data::Dumper::Concise" => 0,
+  "Data::UUID" => 0,
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "Function::Parameters" => 0,

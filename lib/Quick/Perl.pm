@@ -28,6 +28,8 @@ use Scalar::Util          ();
 use Switch::Plain         ();
 use Sys::Info             ();
 use Set::Tiny             ();
+use Data::UUID            ();
+
 
 use Import::Into;
 
@@ -74,6 +76,7 @@ sub import {
     Data::Dumper::Concise->import::into($target, qw(Dumper));
     Switch::Plain->import;
     Set::Tiny->import::into($target);
+    Data::UUID->import::into($target);
 
     $class;
 }
