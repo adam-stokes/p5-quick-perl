@@ -73,7 +73,6 @@ sub import {
 
     true->import;
 
-    Path::Tiny->import::into($target, 'path');
     Try::Tiny->import::into($target);
     Data::Dumper::Concise->import::into($target, qw(Dumper));
     Rex->import::into($target, '-feature' => [qw(no_path_cleanup)]);
@@ -92,6 +91,7 @@ sub import {
     Rex::Commands::Service->import::into($target);
     Rex::Commands::User->import::into($target);
     Rex::Commands::Virtualization->import::into($target);
+    Path::Tiny->import::into($target, qw(path cwd));
 
     $class;
 }
