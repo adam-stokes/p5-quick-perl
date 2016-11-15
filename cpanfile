@@ -16,3 +16,4 @@ requires "strict" => "0";
 requires "true" => "0";
 requires "utf8::all" => "0";
 requires "warnings" => "0";
+requires "Rex";
