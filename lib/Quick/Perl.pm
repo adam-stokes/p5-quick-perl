@@ -2,7 +2,7 @@ package Quick::Perl;
 
 # ABSTRACT: my kinda/sorta defaults
 
-use v5.14;
+use 5.020;
 use strict;
 use warnings;
 use utf8::all;
@@ -20,15 +20,8 @@ use Const::Fast           ();
 use feature               ();
 use true                  ();
 use Data::Dumper::Concise ();
-use match::simple         ();
-use Function::Parameters  ();
 use Path::Tiny            ();
-use PerlX::Maybe          ();
 use Scalar::Util          ();
-use Switch::Plain         ();
-use Sys::Info             ();
-use Set::Tiny             ();
-use Data::UUID            ();
 
 
 use Import::Into;
@@ -53,30 +46,19 @@ sub import {
 
     warnings->unimport('once');
     warnings->unimport('experimental');
+    warnings->unimport('experimental::signatures');
 
     bareword::filehandles->unimport;
     indirect->unimport(':fatal');
 
-    feature->import(':5.14');
-    feature->unimport('switch');
+    feature->import(':5.20');
+    feature->import('signatures');
 
-    match::simple->import::into($target);
     true->import;
 
-    Function::Parameters->import::into(
-        $target,
-        {   func   => 'function_strict',
-            method => 'method_strict',
-        }
-    );
-
     Path::Tiny->import::into($target, 'path');
-    PerlX::Maybe->import::into($target, qw/maybe provided/);
     Try::Tiny->import::into($target);
     Data::Dumper::Concise->import::into($target, qw(Dumper));
-    Switch::Plain->import;
-    Set::Tiny->import::into($target);
-    Data::UUID->import::into($target);
 
     $class;
 }
